@@ -1,2 +1,2 @@
 # cfg
-prueba git configs
+prueba configs
