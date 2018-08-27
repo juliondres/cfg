@@ -7,5 +7,6 @@ server:
 # Discovery Server Access
 eureka:
   client:
+    registerWithEureka: true
     serviceUrl:
       defaultZone: http://localhost:9091/eureka/
