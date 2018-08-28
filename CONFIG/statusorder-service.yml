@@ -1,4 +1,6 @@
-#Configuration for failfast=false
+spring:
+  application:
+     name: statusorder-service
 
 # HTTP Server
 server:
