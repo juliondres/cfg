@@ -1,18 +1,10 @@
 # HTTP Server
 server:
   port: 4444   # HTTP port
-
-# Discovery Server Access
-eureka:
-  client:
-    registerWithEureka: true
-    serviceUrl:
-      defaultZone: http://localhost:9091/eureka/
+  
 zuul:
-  #ignoredServices: '*'
   routes:
     statusorder:
       path: /api/statusorder/**
       serviceId: statusorder-service
       stripPrefix: false
-      #url: http://localhost:xxxx/greeting/
