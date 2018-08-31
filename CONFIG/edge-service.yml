@@ -11,8 +11,8 @@ eureka:
 zuul:
   #ignoredServices: '*'
   routes:
-    greetings:
-      path: /api/**
+    statusorder:
+      path: /api/statusorder/**
       serviceId: statusorder-service
       stripPrefix: false
       #url: http://localhost:xxxx/greeting/
