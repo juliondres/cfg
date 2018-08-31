@@ -13,7 +13,7 @@ zuul:
   #ignoredServices: '*'
   routes:
     statusorder:
-      path: /api/statusorder/**
+      path: /api/**
       serviceId: statusorder-service
       stripPrefix: false
       #url: http://localhost:xxxx/greeting/
