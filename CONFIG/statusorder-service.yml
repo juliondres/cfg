@@ -1,6 +1,6 @@
 # HTTP Server
 server:
-  port: 3332   # HTTP port
+  port: ${PORT:3332}   # HTTP port
 
 # Discovery Server Access
 eureka:
