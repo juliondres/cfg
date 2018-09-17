@@ -1,0 +1,52 @@
+server:
+    port: 5555
+
+#
+# IMPORTANT NOTICE: 
+# You have to replace this keypair and make sure the private key remains private!
+#
+
+config:
+    oauth2:
+        # openssl genrsa -out jwt.pem 2048
+        # openssl rsa -in jwt.pem
+        privateKey: |
+            -----BEGIN RSA PRIVATE KEY-----
+			MIIEogIBAAKCAQEA3tgK1LY58z3OS5u1KKFzNoohOm32pe/mKyCGtQPZbGk63znh
+			sQfUuOsRXFmyJQuhJJbd60pee48f/pfKXS3fehS9MTYo2cZVxoZTqi7e0T4Rxj9t
+			2q8XnO+ynkIkhe8YMALCT1qUYdLJSGru9wZ65Ee7gl3BkFNYru+MnQGE6LNMHXp/
+			258rF235SW1fEWFaHszQ06zOxXUSr9mjkCJCib+q9ly+AOePHueU8euD/hqvZUha
+			JvzwIoCkB/QCoVivFKHhe7VIkBK9QOB5ch41LUdO1xaBkVcIa2VWjMPLPxTGmJpS
+			678GNy/kNUjbRc/6B3w0vrpLuD7LJCIy0GNUfQIDAQABAoIBABqFrARVC+CfYoYt
+			KgqD7Kp5FitWGxz0yHgpjt7MbnwwqgkXYn0naXH4yEAtjL5L/AnWyuLOHyClkDFE
+			75jXdNmazkmlIIeKy3qtUhfXLD3LHWJy+igk3rKW9LNRO/eU1VQhf+7h4Pcjl0E/
+			OOG9q7Kvtul1Lyx2Pv/TEvE81Qy80UITn8op69hYf48QnOHoM801+X3mSMdTtzYn
+			0qqCX165VznWsMEz4Zdylr4GGunYLfrzNEtWDBJDGPyuGzmH4UFSSkTD2H42v6dC
+			gxYHEKpDEtya0QGlhjQxDxqEibf1gHsgyJg9Zy5skShKA+UJX5ixUiutjIHNRZDh
+			TjKQ8gECgYEA/op3GAoYuna4VrHH51OQ1B2t2tzJVWpw8wcfXIvPjbuXvLwA/96B
+			CYrrPpdcfbE/Iw8Rk6CkpwRl6o69tW+uKOW5znm9Ullrag3sHHXwJGgEGiievCxh
+			7NQXPbtn1G0nhlmOc0IRQRpKBR3gcs9VwRYJz17Y3KKpIGzLsT1dCW0CgYEA4B8P
+			8oZgK8L2fdkE6VlZIcovzrcXxIb6uCW9ZrXp4ary9bzrzid/5hen2eDVGTTc3eQ4
+			5psCtYviKqVaRqROAplkJjS0kqJUbLut60bwqx1cgZ+T8Z8IR6U+wpRTKRWxomyw
+			54GSe3glsDIV01uF4sEa3kClCcGBeF1QwpAqHVECgYBrymU+l9/67pWHmQenjXrS
+			aLMb8M2Nz2J/eC+uuEIvqhZKxW7C7A3G5b5TJjPzwmCTTylJVAkF9VXXa5UoxV+C
+			UC5MIr+qpNVY9wZa0xLbx/Scw0DdPQpHCVXCPZ9tlL/dJAWwB3VZFXHtEsbet7B/
+			8P48g9TgMj3ezlO//dVtTQKBgErJcrveJUdVFoWmHmJzoy+IVW2oYTD+TbmXNl2I
+			xJO+RLbFpPY07hPsvuEQimuP3UfZ+TbScRP9qqnKZZZ/C10IrIenPL5VltB1zDJf
+			iL3A3XaPtoGBLPUjag7qCdoC2DS4CkwmS6gRzpm+DNRrjQC+qWWSsr/Pp5FvqhxS
+			mQsRAoGAYsNW8Y9FLwwHgX+iM1MWFkwcLOBHUjRi+naQnl/TsVo8IG454znS3m1S
+			DZgKsSozv76pk7K/pC6Dbf3Xpg7HqKSXLlw2cSX9EedPKc+hA8agxBb8J86MkLI4
+			cPZXiEMXeWxSil/IQzxCNBoxOcdBpUjhDdVC6MmTQ3ahVfLrK8U=
+			-----END RSA PRIVATE KEY-----
+
+        # openssl rsa -in jwt.pem -pubout
+        publicKey: |
+            -----BEGIN PUBLIC KEY-----
+			MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3tgK1LY58z3OS5u1KKFz
+			NoohOm32pe/mKyCGtQPZbGk63znhsQfUuOsRXFmyJQuhJJbd60pee48f/pfKXS3f
+			ehS9MTYo2cZVxoZTqi7e0T4Rxj9t2q8XnO+ynkIkhe8YMALCT1qUYdLJSGru9wZ6
+			5Ee7gl3BkFNYru+MnQGE6LNMHXp/258rF235SW1fEWFaHszQ06zOxXUSr9mjkCJC
+			ib+q9ly+AOePHueU8euD/hqvZUhaJvzwIoCkB/QCoVivFKHhe7VIkBK9QOB5ch41
+			LUdO1xaBkVcIa2VWjMPLPxTGmJpS678GNy/kNUjbRc/6B3w0vrpLuD7LJCIy0GNU
+			fQIDAQAB
+			-----END PUBLIC KEY-----
