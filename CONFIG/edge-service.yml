@@ -14,6 +14,6 @@ zuul:
   routes:
     statusorder:
       path: /api/statusOrder/**
-      serviceId: statusorder-service
+      serviceId: statusOrder-service
       stripPrefix: false
       #url: http://localhost:xxxx/greeting/
