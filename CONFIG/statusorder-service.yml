@@ -1,6 +1,7 @@
 # HTTP Server
 server:
-  port: ${random.int[3331,3999]}   # HTTP port
+  port: ${PORT:3334}   # HTTP port
+  #port: ${random.int[3331,3999]}   # HTTP port
 
 # Discovery Server Access
 eureka:
